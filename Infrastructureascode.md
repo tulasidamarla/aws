@@ -159,9 +159,9 @@ aws ec2 describe-regions
 
 Applying filters
 ----------------
-Suppose you want to get list of t2.micro instances which are already configured by you,
+Suppose you want to get list of t2.micro instances which are already configured by you, The command is 
 
-aws ec2 describe-instances --filters "Name=instance-type,Values=t2.micro"			
+			aws ec2 describe-instances --filters "Name=instance-type,Values=t2.micro"
 
 Sample output for my account
 ----------------------------
