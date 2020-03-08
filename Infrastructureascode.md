@@ -3,12 +3,12 @@ JIML
 ----
 To understand infrastructure as code, we use Json Infrastructure markup language.The infrastructure consists of the following:
 
- Load balancer (LB)
- Virtual machines (VMs)
- Database (DB)
- DNS entry
- Content delivery network (CDN)
- Bucket for static files
+Load balancer (LB) <br>
+Virtual machines (VMs) <br>
+Database (DB) <br>
+DNS entry <br>
+Content delivery network (CDN) <br>
+Bucket for static files 
 
 Here is an example:
 
