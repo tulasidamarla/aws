@@ -1,5 +1,5 @@
 Internet Gateway
-
+----------------
 An Internet Gateway is a logical connection between an Amazon VPC and the Internet. It is nota physical device. Only one can be associated with each VPC. It does not limit the bandwidth of Internet connectivity. (The only limitation on bandwidth is the size of the Amazon EC2 instance, and it applies to all traffic -- internal to the VPC and out to the Internet.)
 
 If a VPC does not have an Internet Gateway, then the resources in the VPC cannot be accessed from the Internet (unless the traffic flows via a corporate network and VPN/Direct Connect).
@@ -7,7 +7,7 @@ If a VPC does not have an Internet Gateway, then the resources in the VPC cannot
 A subnet is deemed to be a Public Subnet if it has a Route Table that directs traffic to the Internet Gateway.
 
 NAT Instance
-
+------------
 A NAT Instance is an Amazon EC2 instance configured to forward traffic to the Internet. It can be launched from an existing AMI, or can be configured via User Data like this:
 
         #!/bin/sh
@@ -26,7 +26,7 @@ Instances in a private subnet that want to access the Internet can have their In
 Traffic sent to a NAT Instance will typically be sent to an IP address that is not associated with the NAT Instance itself (it will be destined for a server on the Internet). Therefore, it is important to turn off the Source/Destination Check option on the NAT Instance otherwise the traffic will be blocked.
 
 NAT Gateway
-
+-----------
 AWS introduced a NAT Gateway Service that can take the place of a NAT Instance. The benefits of using a NAT Gateway service are:
 
 It is a fully-managed service -- just create it and it works automatically, including fail-over
