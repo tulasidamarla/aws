@@ -184,7 +184,7 @@ Configuring actions
 -------------------
 An action is something like sending an email notification. To configure an email notification, we should either create a new topic or use an existing topic. In our example, we create a new topic as shown below.
 
-![aws_cloud_watch_create_topic](aws_cloud_watch_create_topic.png)
+![aws_cloud_watch_create_topic](aws_cloud_watch_create_topic.PNG)
 
 Add name
 --------
@@ -202,62 +202,4 @@ your Lambda function. To do that, instructions are available at the below link.
 https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc.html
 
 Note: AWS recommends to not place lambda inside VPC, because lambda inside vpc increases complexity, especially when scaling to a large number of concurrent executions.For example, the number of available private IP addresses in a VPC is limited, but a Lambda function will need multiple private IP addresses to be able to scale the number of concurrent invocations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
