@@ -24,19 +24,19 @@
   - AWS services can be managed by sending requests to the API manually via web ui called management console, a CLI or programatically via an SDK.
   - VM's can be connected through SSH and can be installed softwares on them.
   - AWS offers lot of services. Some important services are
-     EC2—Virtual machines
-     ELB—Load balancers
-     Lambda—Executing functions
-     Elastic Beanstalk—Deploying web applications
-     S3—Object store
-     EFS—Network filesystem
-     Glacier—Archiving data
-     RDS—SQL databases
-     DynamoDB—NoSQL database
-     ElastiCache—In-memory key-value store
-     VPC—Private network
-     CloudWatch—Monitoring and logging
-     CloudFormation—Automating your infrastructure
-     OpsWorks—Deploying web applications
-     IAM—Restricting access to your cloud resources
-     Simple Queue Service—Distributed queues
+    - EC2—Virtual machines
+    - ELB—Load balancers
+    - Lambda—Executing functions
+    - Elastic Beanstalk—Deploying web applications
+    - S3—Object store
+    - EFS—Network filesystem
+    - Glacier—Archiving data
+    - RDS—SQL databases
+    - DynamoDB—NoSQL database
+    - ElastiCache—In-memory key-value store
+    - VPC—Private network
+    - CloudWatch—Monitoring and logging
+    - CloudFormation—Automating your infrastructure
+    - OpsWorks—Deploying web applications
+    - IAM—Restricting access to your cloud resources
+    - Simple Queue Service—Distributed queues
