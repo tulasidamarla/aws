@@ -11,4 +11,9 @@
 - Global infrastructure
   - AWS offers data centers in North America, South America, Europe, Asia, and Australia.
   - Global infrastructure offers low network latencies between customers and infrastructure, being able to comply with regional data protection requirements, and benefiting from different infrastructure prices in different regions.
-  
+- Pricing
+  - To calculate monthly the monthly cost of a planned setup, use AWS simple monthly calculator at http://aws.amazon.com/calculator.
+  - AWS services are billed in different ways.
+    - Based on minutes or hours of usage—A virtual machine is billed per minute. A load balancer is billed per hour.
+    - Based on traffic—Traffic is measured in gigabytes or in number of requests, for example.
+    - Based on storage usage—Usage can be measured by capacity (for example, 50 GB volume no matter how much you use) or real usage (such as 2.3 GB used).
