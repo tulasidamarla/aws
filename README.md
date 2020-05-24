@@ -1,6 +1,9 @@
 # AWS
 
-- AWS is a platform of services.
+- AWS is a platform of services. 
+  - AWS provides a worldwide infrastructure for computing, networking, and storage capabilities.
+  - An IaaS offering that provides virtual machines on-demand: Amazon EC2.
+  - Highly distributed storage systems able to scale storage and I/O capacity without limits: Amazon S3
 - Common problems such as load balancing, queuing, sending email, and storing files are solved for you by services.
 - Picking the right service to build the complex system is key to get benefit out of AWS platform.
 - AWS provides api, using which all tasks can be automated, like create networks, start virtual machine clusters, or deploy a relational database.
