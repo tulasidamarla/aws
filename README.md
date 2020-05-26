@@ -40,3 +40,28 @@
     - OpsWorks—Deploying web applications
     - IAM—Restricting access to your cloud resources
     - Simple Queue Service—Distributed queues
+- Interacting with AWS
+  - Management console
+    - Management console helps you to gain an overview of the different services quickly. 
+    - Management Console is also a good way to set up a cloud infrastructure for development and testing.
+  - CLI
+    - CLI uses terminal to automate or semi-automate recurring tasks, so it is a valuable tool.
+    - Terminal can be used to create new cloud infrastructures based on blueprints, upload files to the object store, or get the details of your infrastructure’s networking configuration regularly.
+    - CLI is available for Windows, Mac, and Linux, and there is also a PowerShell version available.
+  - SDK
+    - AWS offers SDKs for many platforms and languages like Android, IOS, Java, .NET, Node js, Python, Go, C++ etc.
+    - SDKs are typically used to integrate AWS services into applications
+  - Blueprints
+    - A blueprint is a description of your system containing all resources and their dependencies.
+    - An Infrastructure as Code tool compares blueprint with the current system, and calculates the steps to create, update, or delete your cloud infrastructure.
+    - Blueprints will help to automate the configuration of infrastructure in the cloud.
+    - Automation of infrastructure is possible with CLI, SDK also, but doing so requires to resolve dependencies, make sure to update different versions of infrastructure
+    
+    
+    
+    
+    
+    
+    
+    
+    
