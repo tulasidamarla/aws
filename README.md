@@ -59,14 +59,15 @@
 - Creating an AWS account
   - To create a free account, access the url https://aws.amazon.com from browser, and click the Create a Free Account button and follow the instructions.
   - Creating Key pair
-    - To access a Linux machine, SSH protocol is used. A key pair is required for authentication instead of a password during login.
+    - To access a Linux machine(like ec2 vm), SSH protocol is used. A key pair is required for authentication instead of a password during login.
     - A key pair consists of a private key and a public key. The public key will be uploaded to AWS and injected into the virtual machine.
     - EC2 dashboard contains various groups like instances, images, elastic block storage, network and security.
       - Click Key Pairs in the navigation bar under Network & Security and click the create key pair button.
       - Give a name to the key-pair(say mykey). During creation process, pem(mykey.pem) file will be downloaded.
   - Working with Key pair
     - For Linux and Mac, change the access rights of mykey.pem with the command `chmod 400 mykey.pem` in the terminal.
-    - For windows, need to generate the public and private keys using puttygen.
+    - Windows doesn’t ship an SSH client, so need to download the PuTTY installer for Windows
+      - Putty comes with a tool called puttygen, using which .pem file needs to be converted to .ppk file as needed by putty client to login into VM.
     
     
     
