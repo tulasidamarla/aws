@@ -69,8 +69,7 @@
     - Windows doesn’t ship an SSH client, so need to download the PuTTY installer for Windows
       - Putty comes with a tool called puttygen, using which .pem file needs to be converted to .ppk file as needed by putty client to login into VM.
     
-    
-    
+    <img src="aws_api.png" alt="aws_api" align="middle" width="70%">
     
     
     
