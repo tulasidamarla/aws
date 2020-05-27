@@ -71,8 +71,28 @@
     
     <img src="aws_api.png" alt="aws_api" align="middle" width="70%">
     
-    
-    
-    
+Wordpress blog website infrastructure example
+-
+- WordPress is an open-source website creation platform that is written in PHP and uses a MySQL database.
+- It is one of the most powerful blogging and website content management system (or CMS) in existence today.
+- Creating required infrastrucutre
+  - Elastic load balancing(ELB)
+    - AWS offers an application load balancer(ALB) as a service. The load balancer distributes traffic to a bunch of virtual machines, and is highly available by default.
+    - Requests are routed to virtual machines as long as their health check succeeds.
+  - Elastic Compute Cloud (EC2)
+    - The EC2 service provides virtual machines. Various distributions from Ubuntu, Debian, Red hat, Windows etc are available.
+    - The load balancer will distribute the traffic between them.
+  - Relational Database Service (RDS) for MySQL    
+    - AWS provides MySQL with its RDS.
+    - Choose the database size (storage, CPU, RAM), and RDS does the operating tasks like creating backups and installing patches and updates. 
+    - RDS service can be made highly available by MySQL database by replication.
+  - Elastic File System (EFS)  
+    - WordPress consists of PHP and other application files for user uploads. For example images added to an article, are stored as files.
+    - With NFS, VM's can access these files.
+    - EFS provides a scalable, highly available, and durable network filesystem using the NFSv4.1 protocol.
+  - Security groups
+    - Security groups control incoming and outgoing traffic to vm, database, or load balancer with a firewall.
+    - For example, use a security group allowing incoming HTTP traffic from the internet to port 80 of the load balancer. 
+    - Restrict network access to your database on port 3306 to the virtual machines running your web servers.
     
     
