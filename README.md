@@ -147,3 +147,4 @@ Wordpress blog website infrastructure example
      
      <img src="rds_mysql.png" alt="rds_mysql" align="middle" width="70%">
      
+     <img src="rds_dashboard.png" alt="rds_dashboard" align="middle" width="70%">
