@@ -95,4 +95,5 @@ Wordpress blog website infrastructure example
     - For example, use a security group allowing incoming HTTP traffic from the internet to port 80 of the load balancer. 
     - Restrict network access to your database on port 3306 to the virtual machines running your web servers.
     
+    <img src="wordpress_example_infrastructure.png" alt="wordpress_example_infrastructure" align="middle" width="70%">
     
