@@ -150,3 +150,11 @@ Wordpress blog website infrastructure example
      - RDS dashboard
      
      <img src="rds_dashboard.png" alt="rds_dashboard" align="middle" width="70%">
+     
+   - Network file system
+     - The EFS is used to store files and access them from multiple virtual machines. 
+     - EFS is a storage service accessible through the NFS protocol.
+     - Select EFS from the services menut to get more information like name, DNS name, mount targets etc.
+     - Two mount targets are required for fault tolerance.
+     
+     <img src="file_systems.png" alt="file_systems" align="middle" width="70%">
