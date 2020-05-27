@@ -128,3 +128,13 @@ Wordpress blog website infrastructure example
        - AMI ID— Clicking on the AMI ID, shows the version number of the OS, among other things.
     
    <img src="ec2_instance_details.png" alt="ec2_instance_details" align="middle" width="70%">
+  
+   - Load balancer
+     - Target Group
+       - Load balancer forwards incoming requests to one of the VM's.
+       - Target group is used to define the targets for a load balancer.
+       - Target groups are present under the Load balancing section of the EC2 dash board.
+      - The load balancer performs health checks to ensure requests are routed to healthy targets only. 
+      - Monitoring tab gives interesting metrics which are useful in production.
+      
+      <img src="target_group.png" alt="target_group" align="middle" width="70%">
