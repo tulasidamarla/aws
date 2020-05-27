@@ -158,3 +158,11 @@ Wordpress blog website infrastructure example
      - Two mount targets are required for fault tolerance.
      
      <img src="file_systems.png" alt="file_systems" align="middle" width="70%">
+     
+- Calculating Cost
+  - To calculate approxmate cost for the month visit https://calculator.s3.amazonaws.com/index.html
+  
+  <img src="monthly_calculator.png" alt="monthly_calculator" align="middle" width="70%">
+  
+  
+  
