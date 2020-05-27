@@ -109,6 +109,22 @@ Wordpress blog website infrastructure example
     - Tag consists of a key and a value.
     - Tags are used to add metadata to all parts of infrastructure, which are used to differenciate between various resources like testing and production, differentiate cost centers, differentiate multiple applications etc.
     
+- Exploring infrastructure
+  - Resource Groups
+    - A resource group is useful for grouping AWS resources. Resource can be any resource like VM, security group, load balancer, database etc.
+    - Grouping of resources can be used to identify resource that belong to an application, region, multiple environments etc.
+    - Tags are crucial for identifying resources that belong to a Resource group.
+    - Creating resource group
+      - Click on Resource group on the amazon web console home page and choose the option `create a group`.
+      - Provide the name, tag and region as shown below.
   
-  
-  
+  <img src="resource_group.png" alt="resource_group" align="middle" width="70%">
+
+   - Virtual machines
+     - EC2 sub section contains instances, which provides important instance details like below.
+       - Instance type—Tells you about how powerful your EC2 instance is. 
+       - IPv4 Public IP—The IP address that is reachable over the internet. This IP address can be used to connect to the VM via SSH.
+       - Security groups—Clicking on View Rules, shows active firewall rules, like enabling port 22 from all sources (0.0.0.0/0)
+       - AMI ID— Clicking on the AMI ID, shows the version number of the OS, among other things.
+    
+   <img src="ec2_instance_details.png" alt="ec2_instance_details" align="middle" width="70%">
