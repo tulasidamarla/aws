@@ -138,3 +138,12 @@ Wordpress blog website infrastructure example
       - Monitoring tab gives interesting metrics which are useful in production.
       
       <img src="target_group.png" alt="target_group" align="middle" width="70%">
+   - MySQL database
+     - The RDS offers SQL databases as managed services, complete with backups, patch management, and high availability.
+     - Automated backups are disabled by default, can be enabled for production systems.
+     - Other database options like postgres, oracle are also available.
+     - Storage options can be changed to SSD instead of magnetic disks.
+     - Storage can be increased dynamically based on need.
+     
+     <img src="rds_mysql.png" alt="rds_mysql" align="middle" width="70%">
+     
