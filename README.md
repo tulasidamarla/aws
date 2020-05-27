@@ -75,7 +75,7 @@ Wordpress blog website infrastructure example
 -
 - WordPress is an open-source website creation platform that is written in PHP and uses a MySQL database.
 - It is one of the most powerful blogging and website content management system (or CMS) in existence today.
-- Creating required infrastrucutre
+- Required infrastrucutre
   - Elastic load balancing(ELB)
     - AWS offers an application load balancer(ALB) as a service. The load balancer distributes traffic to a bunch of virtual machines, and is highly available by default.
     - Requests are routed to virtual machines as long as their health check succeeds.
@@ -95,5 +95,20 @@ Wordpress blog website infrastructure example
     - For example, use a security group allowing incoming HTTP traffic from the internet to port 80 of the load balancer. 
     - Restrict network access to your database on port 3306 to the virtual machines running your web servers.
     
+    
     <img src="wordpress_example_infrastructure.png" alt="wordpress_example_infrastructure" align="middle" width="70%">
     
+- Creating infrastructure
+  - Creating infrastructure is easier to do with automation with AWS Cloud formation.
+  - With AWS cloud formation, infrastructre requirements are written either in yaml or json file.
+  - The yaml file for the above infrastrucuture can be downloaded from https://s3.amazonaws.com/awsinaction-code2/chapter02/template.yaml
+  - To create the infrastructure, login to https://console.aws.amazon.com/ -> click services in the navigation bar -> select CloudFormation service -> create stack
+  - While creating choose a region of required choice, select the option `specify an Amazon s3 template URL`.
+  - Choose stack name of your choice, set the key name(say mykey).
+  - Choose a tag
+    - Tag consists of a key and a value.
+    - Tags are used to add metadata to all parts of infrastructure, which are used to differenciate between various resources like testing and production, differentiate cost centers, differentiate multiple applications etc.
+    
+  
+  
+  
